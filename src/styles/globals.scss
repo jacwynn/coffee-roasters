@@ -18,7 +18,8 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+button {
   font-family: var(--heading-font);
   font-weight: 900;
 }
@@ -46,4 +47,22 @@ h4 {
 p {
   font-size: rem(16);
   color: var(--secondary-color)
+}
+
+button {
+  border: none;
+  border-radius: rem(6);
+  background-color: var(--primary-color);
+  cursor: pointer;
+  font-size: rem(18);
+  color: var(--cream-color);
+  padding: 0.85em 4.5em;
+  transition: all 0.3s ease;
+  &:hover {
+    background-color: #66D2CF;
+  }
+  &:disabled,
+  &[disabled] {
+    background-color: #E2DEDB;
+  }
 }
