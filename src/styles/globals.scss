@@ -14,3 +14,36 @@
   --heading-font: 'Fraunces', serif;;
   --paragraph-font: 'Barlow', sans-serif;
 }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--heading-font);
+  font-weight: 900;
+}
+
+h1 {
+  font-size: rem(72);
+  &.alt-h1 {
+    font-size: rem(150);
+    color: var(--grey-color);
+  }
+}
+
+h2 {
+  font-size: rem(40);
+}
+
+h3 {
+  font-size: rem(32);
+}
+
+h4 {
+  font-size: rem(24);
+}
+
+p {
+  font-size: rem(16);
+  color: var(--secondary-color)
+}
