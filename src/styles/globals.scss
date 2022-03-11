@@ -1,4 +1,5 @@
 @import 'reset';
+@import 'fonts';
 
 :root {
   // Site Colors
@@ -7,4 +8,8 @@
   --accent-color: #FDD6BA;
   --grey-color: #83888F;
   --cream-color: #FEFCF7;
+
+  //Font Family
+  --heading-font: 'Fraunces', serif;;
+  --paragraph-font: 'Barlow', sans-serif;
 }
