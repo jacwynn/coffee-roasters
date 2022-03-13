@@ -2,6 +2,9 @@
 @import 'mixins';
 @import 'fonts';
 
+//components stylesheets
+@import 'header';
+
 :root {
   // Site Colors
   --primary-color: #0E8784;
@@ -47,6 +50,20 @@ h4 {
 p {
   font-size: rem(16);
   color: var(--secondary-color)
+}
+
+a {
+  color: var(--grey-color);
+  font-family: var(--paragraph-font);
+  font-weight: 700;
+  font-size: rem(12);
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+  &:hover {
+    color: var(--secondary-color);
+  }
 }
 
 button {
