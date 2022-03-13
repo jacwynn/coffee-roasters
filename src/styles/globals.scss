@@ -2,6 +2,9 @@
 @import 'mixins';
 @import 'fonts';
 
+//components stylesheets
+@import 'header';
+
 :root {
   // Site Colors
   --primary-color: #0E8784;
